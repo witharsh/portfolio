@@ -245,8 +245,21 @@ img {
   border-radius: .5rem;
   transition: .3s;
 }
+.button2 {
+  display: inline-block;
+  background-color:var(--second-color);
+  color: #fff;
+  padding: .75rem 2.5rem;
+  font-weight: var(--font-semi);
+  border-radius: .5rem;
+  transition: .3s;
+  margin-left: 10px;
+}
 
 .button:hover {
+  box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+}
+.button2:hover {
   box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
 }
 
@@ -526,5 +539,13 @@ img {
   }
   .home__img {
     width: 450px;
+  }
+}
+@media screen and (max-width: 328px) {
+  .button {
+    margin-bottom: 10px;
+  }
+  .button2 {
+    margin-left: 0px;
   }
 }

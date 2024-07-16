@@ -320,6 +320,10 @@ img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
 }
 
+.skills__data:last-child{
+  margin-bottom: 0;
+}
+
 .skills__icon {
   font-size: 2rem;
   margin-right: var(--mb-2);
@@ -341,6 +345,12 @@ img {
   z-index: var(--z-back);
 }
 
+.skills__js {
+  width: 95%;
+}
+.skills__reactjs {
+  width: 95%;
+}
 .skills__html {
   width: 95%;
 }
@@ -352,27 +362,27 @@ img {
 .skills__boot {
   width: 90%;
 }
-.skills__js {
-  width: 95%;
-}
-.skills__reactjs {
-  width: 95%;
-}
 .skills__tailwind {
-  width: 90%;
+  width: 85%;
 }
 
 
 .skills__img {
+  overflow: hidden;
+  display: none;
+  justify-content: end;
+  align-items: center;
+}
+
+.skills__img img {
   border-radius: .5rem;
+  width: 90%;
 }
 
 /*==== WORK ====*/
 .work__container {
   row-gap: 2rem;
 }
-
-
 
 .work__container .item{
   float:left;
@@ -654,6 +664,9 @@ p.brandtext a{
     column-gap: 2rem;
     align-items: center;
     text-align: initial;
+  }
+  .skills__img{
+    display: flex;
   }
   .work__container {
     grid-template-columns: repeat(3, 1fr);

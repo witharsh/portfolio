@@ -346,17 +346,20 @@ img {
 }
 
 .skills__css {
-  width: 85%;
+  width: 99%;
 }
 
 .skills__boot {
-  width: 95%;
+  width: 90%;
 }
 .skills__js {
-  width: 85%;
+  width: 95%;
 }
 .skills__reactjs {
-  width: 85%;
+  width: 95%;
+}
+.skills__tailwind {
+  width: 90%;
 }
 
 
